@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio of luxun1910</title>
+    <link>http://localhost:1313/ja/</link>
+    <description>Recent content on Portfolio of luxun1910</description>
+    <generator>Hugo</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 23 Jul 2024 19:10:49 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最初の投稿</title>
+      <link>http://localhost:1313/ja/posts/my-first-post/</link>
+      <pubDate>Tue, 23 Jul 2024 19:10:49 +0900</pubDate>
+      <guid>http://localhost:1313/ja/posts/my-first-post/</guid>
+      <description>始めに 初めまして。luxun1910と申します。 読み方は「るーしゅん」です。 中国の小説家「魯迅」の中国語読みが由来です。&#xA;現在自分は中国語学習のため、中国に語学留学しています。 卒業後は、もともとの職種であったソフトウェアエンジニアとして就職したいと考えています。 自分の活動を可視化できるスペースがあった方が良いだろうと思い、ひとまずHugoとGitHub Pagesを使ってポートフォリオ兼技術ブログを立ち上げました。&#xA;よろしくお願いいたします。</description>
+    </item>
+  </channel>
+</rss>
