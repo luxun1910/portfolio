@@ -1,8 +1,9 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://luxun1910.github.io/portfolio/"
 languageCode: "en-us"
 title: "Portfolio of luxun1910"
 theme: hugo-profile
 publishDir: "docs"
+canonifyurls: true
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
