@@ -1,4 +1,5 @@
 # Generated files by hugo
+/docs
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
