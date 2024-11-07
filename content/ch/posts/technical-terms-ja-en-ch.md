@@ -21,7 +21,12 @@ draft = false
 |  プロパティ  |  TD  |  TD  |
 |  フィールド  |  TD  |  TD  |
 |  メソッド  |  TD  |  TD  |
-|  メソッド  |  TD  |  TD  |
+|  スクリプト  |  脚本  |  script  |
+|  マルチスレッド  |  多线程  |  multithreading  |
+|  ストアドプロシージャ  |  TD  |  TD  |
+|  値型  |  TD  |  TD  |
+|  参照型  |  TD  |  TD  |
+
 
 ## 参考文献
 
