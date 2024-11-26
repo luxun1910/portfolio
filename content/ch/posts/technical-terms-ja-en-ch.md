@@ -26,6 +26,8 @@ draft = false
 |  ストアドプロシージャ  |  TD  |  TD  |
 |  値型  |  TD  |  TD  |
 |  参照型  |  TD  |  TD  |
+|  関数  |  函数  |  function  |
+
 
 
 ## 参考文献
