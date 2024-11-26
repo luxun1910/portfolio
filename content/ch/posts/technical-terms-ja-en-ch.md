@@ -29,6 +29,7 @@ draft = false
 |  関数  |  函数  |  function  |
 |  マクロ  |  宏  |  macro  |
 |  ループ  |  循环  |  loop  |
+|  オブジェクト指向  |  面向对象  |  Object-oriented programming(OOP)  |
 
 
 
