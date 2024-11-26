@@ -30,6 +30,7 @@ draft = false
 |  マクロ  |  宏  |  macro  |
 |  ループ  |  循环  |  loop  |
 |  オブジェクト指向  |  面向对象  |  Object-oriented programming(OOP)  |
+|  イテレーション  |  迭代  |  iteration  |
 
 
 
