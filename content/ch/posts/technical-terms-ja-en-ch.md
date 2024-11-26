@@ -27,6 +27,8 @@ draft = false
 |  値型  |  TD  |  TD  |
 |  参照型  |  TD  |  TD  |
 |  関数  |  函数  |  function  |
+|  マクロ  |  宏  |  macro  |
+
 
 
 
