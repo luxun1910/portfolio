@@ -28,6 +28,8 @@ draft = false
 |  参照型  |  TD  |  TD  |
 |  関数  |  函数  |  function  |
 |  マクロ  |  宏  |  macro  |
+|  ループ  |  循环  |  loop  |
+
 
 
 
