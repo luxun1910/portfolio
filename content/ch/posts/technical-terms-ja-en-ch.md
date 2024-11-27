@@ -17,7 +17,6 @@ draft = false
 |  インターフェース  |  TD  |  TD  |
 |  継承  |  TD  |  inheritance  |
 |  二重継承  |  TD  |  TD  |
-|  オブジェクト指向  |  TD  |  TD  |
 |  プロパティ  |  TD  |  TD  |
 |  フィールド  |  TD  |  TD  |
 |  メソッド  |  TD  |  TD  |
