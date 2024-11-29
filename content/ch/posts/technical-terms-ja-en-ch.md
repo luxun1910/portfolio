@@ -30,6 +30,12 @@ draft = false
 |  ループ  |  循环  |  loop  |
 |  オブジェクト指向  |  面向对象  |  Object-oriented programming(OOP)  |
 |  イテレーション  |  迭代  |  iteration  |
+|  丸かっこ  |  圆括号  |  parentheses   |
+|  演算子  |  操作符  |  operator   |
+|  アセンブリ言語  |  汇编语言  |  Assembly Language    |
+|  プログラミング言語  |  编程语言  |  Programming Language    |
+|  インスタンス  |  实例  |  instance    |
+
 
 
 
