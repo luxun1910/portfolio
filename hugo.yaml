@@ -1,4 +1,5 @@
 baseURL: "https://luxun1910.github.io/portfolio/"
+hasCJKLanguage: true
 languageCode: "en-us"
 title: "Portfolio of luxun1910"
 theme: hugo-profile
