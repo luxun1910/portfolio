@@ -5,6 +5,7 @@ draft = false
 +++
 
 ## 首次
+
 随时更新
 
 ## 专业词汇一览表
@@ -35,14 +36,10 @@ draft = false
 |  アセンブリ言語  |  汇编语言  |  Assembly Language    |
 |  プログラミング言語  |  编程语言  |  Programming Language    |
 |  インスタンス  |  实例  |  instance    |
-
-
-
-
-
+|  デプロイ  |  部署  |  deploy    |
 
 ## 参考文献
 
-https://qiita.com/ruteshi_SI_shiteru/items/a468ac134f1d51ca2934
-https://qiita.com/Ted-HM/items/7dde25dcffae4cdc7923
-https://qiita.com/hiroyuki7/items/46b7e2b6e92c622b2991
+<https://qiita.com/ruteshi_SI_shiteru/items/a468ac134f1d51ca2934>
+<https://qiita.com/Ted-HM/items/7dde25dcffae4cdc7923>
+<https://qiita.com/hiroyuki7/items/46b7e2b6e92c622b2991>
