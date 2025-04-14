@@ -1,5 +1,6 @@
 baseURL: "https://luxun1910.github.io/portfolio/"
 hasCJKLanguage: true
+enableGitInfo: true
 languageCode: "en-us"
 title: "Portfolio of luxun1910"
 theme: hugo-profile
@@ -544,6 +545,8 @@ params:
   # For translations
   terms:
     read: "Read"
+    created: "Created"
+    lastmod: "Lastmod"
     toc: "Table Of Contents"
     copyright: "All rights reserved"
     pageNotFound: "Page not found"

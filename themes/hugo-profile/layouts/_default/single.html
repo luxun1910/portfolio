@@ -20,11 +20,15 @@
             <h1 class="text-center mb-4">{{ .Title }}</h1>
             <div class="text-center">
               {{ if .Params.author }}
-                {{ .Params.author }}
-                <small>|</small>
+              {{ .Params.author }}
+              <small>|</small>
               {{ end }}
-              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
-
+              {{ .Site.Params.terms.created | default "created"
+              }}: {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }} |
+              {{ .Site.Params.terms.lastmod | default "Lastmod"
+              }}: {{ .Lastmod.Format
+              (.Site.Params.datesFormat.articleList |
+              default "January 2, 2006") }}
               {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
               <span id="readingTime">
                 {{ .Site.Params.singlePages.readTime.content | default "min read" }}
@@ -38,7 +42,7 @@
           </div>
           {{ end }}
           <article class="page-content  p-2">
-          {{ .Content | emojify }}
+            {{ .Content | emojify }}
           </article>
         </div>
       </div>
@@ -46,12 +50,12 @@
         <div id="stickySideBar" class="sticky-sidebar">
           {{ if .Params.toc | default true}}
           <aside class="toc">
-              <h5>
-                {{ .Site.Params.terms.toc | default "Table Of Contents" }}
-              </h5>
-              <div class="toc-content">
-                {{.TableOfContents}}
-              </div>
+            <h5>
+              {{ .Site.Params.terms.toc | default "Table Of Contents" }}
+            </h5>
+            <div class="toc-content">
+              {{.TableOfContents}}
+            </div>
           </aside>
           {{ end }}
 
@@ -60,9 +64,8 @@
             <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
             <ul class="tags-ul list-unstyled list-inline">
               {{range .Params.tags}}
-              <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}"
-                {{ if site.Params.singlePages.tags.openInNewTab | default true }}target="_blank"{{ end }}
-              >{{.}}</a></li>
+              <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}" {{ if
+                  site.Params.singlePages.tags.openInNewTab | default true }}target="_blank" {{ end }}>{{.}}</a></li>
               {{end}}
             </ul>
           </aside>
@@ -74,22 +77,26 @@
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                  <a target="_blank"
+                    href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                  <a target="_blank"
+                    href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                  <a target="_blank"
+                    href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
+                  <a target="_blank"
+                    href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -113,14 +120,15 @@
 
 {{ if or (.Site.Params.singlePages.scrollprogress.enable | default true) (.Params.enableScrollProgress) }}
 <div class="progress">
-  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+    aria-valuemax="100"></div>
 </div>
 <Script src="{{.Site.Params.staticPath}}/js/scrollProgressBar.js"></script>
 {{ end }}
 
 <script>
   var topScroll = document.getElementById("topScroll");
-  window.onscroll = function() {scrollFunction()};
+  window.onscroll = function () { scrollFunction() };
 
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -138,7 +146,7 @@
   // To set height of sticky sidebar dynamically
   let stickySideBarElem = document.getElementById("stickySideBar");
   let stickyNavBar = {{ .Site.Params.navbar.stickyNavBar.enable | default false }};
-  if(stickyNavBar) {
+  if (stickyNavBar) {
     let headerElem = document.getElementById("profileHeader");
     let headerHeight = headerElem.offsetHeight + 15;
     stickySideBarElem.style.top = headerHeight + "px";
