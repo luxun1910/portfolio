@@ -6,6 +6,12 @@ title: "Portfolio of luxun1910"
 theme: hugo-profile
 publishDir: "docs"
 canonifyurls: true
+markup:
+goldmark:
+renderer:
+unsafe: true
+parser:
+hardLineBreak: true
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -285,8 +291,8 @@ params:
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: false
     menus:
       disableAbout: false
@@ -348,7 +354,7 @@ params:
         - Hugo
     skills:
       enable: false
-      title: "Here are a few technologies I've been working with recently:" 
+      title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
         - "CSS"
@@ -424,8 +430,8 @@ params:
         date: "2011 - 2017"
         #GPA: "4.2 out of 5.0"
         #featuredLink:
-          #enable: true
-          #url: "https://example.com"
+        #enable: true
+        #url: "https://example.com"
 
   # Achievements
   achievements:
