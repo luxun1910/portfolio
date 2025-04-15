@@ -7,7 +7,7 @@ draft = false
 ## この記事を書くに至った経緯
 
 Java8 + Spring Bootで書かれたプログラムを、IntelliJ IDEAで開いて編集していた。
-しかし、話題のAIエディタCursorを使用したくて、同じプログラムをCursor（VSCode）で開いてみた。
+しかし、話題のAIエディタCursorを使用したくて、同じプログラムをCursor(VSCode)で開いてみた。
 すると、なぜか大量のエラーが発生し、コンパイルできなくなった。
 原因を探るのに1日溶かしてしまったので、戒めとして投稿する。
 
@@ -23,7 +23,7 @@ import java.util.List;
 public class ServiceImpl<V> implements IService<V> {
     // 他のメンバ
 
-    // IntelliJでは警告になるが、Cursor（VSCode）だとコンパイルエラーになる個所
+    // IntelliJでは警告になるが、Cursor(VSCode)だとコンパイルエラーになる個所
     public List<?> voList(List list) {
         return null;
     }
