@@ -45,6 +45,11 @@ IntelliJ uses javac by default, while Cursor (VSCode) uses ECJ (the same compile
 The same code that javac treats as a warning, ECJ classifies as an error.
 While it's possible to configure Cursor (VSCode) to use javac, it apparently requires JDK 23 or higher, which wasn't an option for this project running on Java 8 (JDK 1.8).
 
+## What Did I End Up Doing
+
+Since I want to use Cursor but can't compile from it, I settled on a strategy of editing in Cursor while using IntelliJ for execution.
+It's inconvenient that I have to rebuild in IntelliJ before running because builds are triggered when editing files in Cursor, but there doesn't seem to be any other solution at present.
+
 ## References
 
 - <https://github.com/redhat-developer/vscode-java/wiki/Javac%E2%80%90based-compilation-support>

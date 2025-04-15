@@ -45,6 +45,11 @@ IntelliJでは標準でjacacが使われているのに対し、Cursor(VSCode)�
 javacだと上記コードは警告で済むのに対し、ECJではエラーと判定される、ということらしい。
 Cursor(VSCode)でもjavacを使えるようにできるが、JDK23以上でないといけないらしく、Java8（JDK1.8）の今回のプロジェクトではCursor(VSCode)でjavacを使うことはできないようだ。
 
+## 結局どうしたか
+
+Cursorは使用したいが、Cursorからだとコンパイルはできないということなので、Cursorで編集を行いつつ、実行するときはIntelliJを使う、という方針に落ち着いた。
+Cursorでファイルを編集するタイミングでビルドが走ってしまうので、IntelliJでリビルドをしてからでないと実行できないというのが面倒だが、現状だと他にどうしようもなさそうだ。
+
 ## 参考文献
 
 - <https://github.com/redhat-developer/vscode-java/wiki/Javac%E2%80%90based-compilation-support>

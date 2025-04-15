@@ -45,6 +45,11 @@ IntelliJ默认使用javac，而Cursor（VSCode）使用ECJ（与Eclipse相同的
 javac将同样的代码视为警告，而ECJ将其归类为错误。
 虽然可以将Cursor（VSCode）配置为使用javac，但据说需要JDK 23或更高版本，这对于运行在Java 8（JDK 1.8）上的当前项目来说不是一个选项。
 
+## 最终如何解决
+
+由于想要使用Cursor，但无法从Cursor进行编译，因此我决定采用在Cursor中进行编辑，而在需要运行时使用IntelliJ的方案。
+在Cursor编辑文件时会触发构建过程，所以必须在IntelliJ中重新构建后才能运行，这点比较麻烦，但目前看来似乎没有其他办法。
+
 ## 参考资料
 
 - <https://github.com/redhat-developer/vscode-java/wiki/Javac%E2%80%90based-compilation-support>
