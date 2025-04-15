@@ -1,5 +1,13 @@
 # Hugo Project
 
+## 初めてのセットアップ
+
+textlintを導入する。
+
+```bash
+npm install
+```
+
 ## 基本的な使い方
 
 ### 新しい記事を作成する
@@ -10,7 +18,7 @@
 hugo new posts/your-article-name.md
 ```
 
-`posts` の部分は、コンテンツの構成に合わせて変更してください（例: `blog`, `docs` など）。
+`posts` の部分は、コンテンツの構成に合わせて変更してください（例： `blog`, `docs` など）。
 
 ### 開発サーバーを起動する
 

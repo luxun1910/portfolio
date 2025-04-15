@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "## 基本的な使い方",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxun1910/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxun1910/portfolio/issues"
+  },
+  "homepage": "https://github.com/luxun1910/portfolio#readme",
+  "devDependencies": {
+    "textlint": "^14.6.0",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-jtf-style": "^3.0.2",
+    "textlint-rule-terminology": "^5.2.12",
+    "textlint-rule-write-good": "^2.0.0"
+  }
+}
