@@ -34,20 +34,23 @@ interface IService<V> {
 }
 ```
 
-上記コメントの通り、`public List<?> voList(List list)`の部分で、IntelliJだと警告が出るだけで、問題なくビルドできるのだが、Cursorだとエラーになり、ビルドできない。
-本来、上記コードの`List<?>`を`List<V>`か`List`とすれば問題ないのだが、上記コードはclassファイルとなっており、編集することができなかった。
+上記コメントの通り、問題は`public List<?> voList(List list)`の部分である。
+IntelliJだと警告が出るだけで、問題なくビルドできるのだが、Cursorだとエラーになり、ビルドできない。
+本来、上記コードの`List<?>`を`List<V>`か`List`とすれば問題ないのだが、上記コードはclassファイルとなっており、編集できなかった。
 そのため、コードを編集することなく、エディタ側の何かしらの設定をいじって対応できないかと考えた。
 
 ## 原因
 
 結論から言うと、この現象はどうやらコンパイラーの違いに起因するらしい。
-IntelliJでは標準でjacacが使われているのに対し、Cursor(VSCode)ではEclipseと同じECJが使用される。
+IntelliJでは標準でjacacが使われているのに対し、Cursor（VSCode）ではEclipseと同じECJが使用される。
 javacだと上記コードは警告で済むのに対し、ECJではエラーと判定される、ということらしい。
-Cursor(VSCode)でもjavacを使えるようにできるが、JDK23以上でないといけないらしく、Java8（JDK1.8）の今回のプロジェクトではCursor(VSCode)でjavacを使うことはできないようだ。
+Cursor（VSCode）でもjavacを使えるようにできるが、JDK23以上でないといけないらしい。
+そのため、Java8（JDK1.8）の今回のプロジェクトではCursor（VSCode）でjavacを使うことはできないようだ。
 
 ## 結局どうしたか
 
-Cursorは使用したいが、Cursorからだとコンパイルはできないということなので、Cursorで編集を行いつつ、実行するときはIntelliJを使う、という方針に落ち着いた。
+Cursorは使用したいが、Cursorからだとコンパイルはできない。
+そのため、Cursorで編集しつつ、実行するときはIntelliJを使う、という方針に落ち着いた。
 Cursorでファイルを編集するタイミングでビルドが走ってしまうので、IntelliJでリビルドをしてからでないと実行できないというのが面倒だが、現状だと他にどうしようもなさそうだ。
 
 ## 参考文献
