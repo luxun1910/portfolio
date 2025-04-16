@@ -2,10 +2,7 @@
   "plugins": {},
   "filters": {},
   "rules": {
-    "common-misspellings": true,
     "preset-ja-technical-writing": true,
-    "preset-jtf-style": true,
-    "terminology": true,
-    "write-good": true
+    "preset-jtf-style": true
   }
 }
