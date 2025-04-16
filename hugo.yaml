@@ -194,7 +194,7 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
-# disqusShortname: your-disqus-shortname
+disqusShortname: portfolio-of-luxun1910
 googleAnalytics: G-6184EMQ7LQ
 
 markup:
