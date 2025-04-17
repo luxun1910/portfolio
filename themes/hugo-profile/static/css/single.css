@@ -4,8 +4,12 @@
     font-size: 17px;
 }
 
-p {
+#single p {
     white-space: pre-wrap;
+}
+
+#single a {
+    text-decoration: underline !important;
 }
 
 #single .title > h1 {
