@@ -192,7 +192,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 6
 enableRobotsTXT: true
 disqusShortname: portfolio-of-luxun1910
 googleAnalytics: G-6184EMQ7LQ
