@@ -1,7 +1,7 @@
 +++
 title = 'Information Literacy in the Age of Generative AI: 7 Signs You Are Reading an AI-Written Article'
 date = 2025-05-10T10:01:59+08:00
-draft = true
+draft = false
 +++
 
 ## Introduction
