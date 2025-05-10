@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+This is a Hugo-based portfolio website. Here's the key directory structure and file organization:
+
+## Core Configuration
+- [hugo.yaml](mdc:hugo.yaml) - Main Hugo configuration file
+- [package.json](mdc:package.json) - Node.js dependencies and scripts
+
+## Content Organization
+- `content/` - Main content directory containing markdown files
+- `layouts/` - Custom Hugo templates and layouts
+- `static/` - Static assets like images and files
+- `themes/` - Hugo themes
+- `assets/` - Source files for CSS, JS, and other processed assets
+- `i18n/` - Internationalization files
+- `data/` - Data files used in templates
+
+## Development
+- `.github/` - GitHub Actions and workflows
+- `.vscode/` - VS Code configuration
+- `node_modules/` - Node.js dependencies
+
+## Build Output
+- `resources/` - Generated resources and processed assets
+- `.hugo_build.lock` - Hugo build lock file

@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Content Management Guide
+
+## Content Structure
+Content for the portfolio is managed in the `content/` directory. Each content type follows specific conventions:
+
+## Markdown Content
+- Use markdown files (`.md`) for all content
+- Front matter must be in YAML format
+- Include appropriate metadata (title, date, description, etc.)
+
+## Asset Management
+- Place images in `static/images/`
+- Use relative paths for image references
+- Optimize images before adding to the repository
+
+## Development Workflow
+1. Create content in the appropriate directory
+2. Test locally using `hugo server`
+3. Commit changes following conventional commit messages
+4. Push to trigger automatic deployment
+
+## Quality Guidelines
+- Follow [.textlintrc.json](mdc:.textlintrc.json) rules for content linting
+- Ensure all links are valid
+- Optimize images for web use
+- Test responsiveness on multiple devices

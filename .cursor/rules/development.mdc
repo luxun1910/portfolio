@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Guide
+
+## Setup and Installation
+1. Install Hugo extended version
+2. Run `npm install` to install dependencies
+3. Use `hugo server` for local development
+
+## Project Configuration
+- Main configuration is in [hugo.yaml](mdc:hugo.yaml)
+- Node.js configuration in [package.json](mdc:package.json)
+- VS Code settings in `.vscode/`
+
+## Development Practices
+- Follow Hugo's templating conventions
+- Use partials for reusable components
+- Maintain clean separation of concerns
+- Test changes locally before committing
+
+## Build and Deployment
+- GitHub Actions handle automated deployment
+- Build artifacts are stored in `resources/`
+- Production builds use environment-specific settings
+
+## Code Quality
+- Follow consistent code formatting
+- Document complex template logic
+- Use semantic naming conventions
+- Keep templates DRY (Don't Repeat Yourself)
