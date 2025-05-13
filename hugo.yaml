@@ -309,7 +309,7 @@ params:
     title: "luxun1910"
     #subtitle: "I build things for the web"
     content: "I'm a careful software engineer who hates misinterpretation at work. I try to use not only web but also other technologies as a hobby. I speak Japanese, English and Chinese."
-    image: /images/me.jpg
+    image: /images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -333,7 +333,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: "/images/mazesoba.jpg"
     content: |-
       I am looking for a job as a software engineer currently. I don't have an educational background in computer science, however, I have developed several applications as a hobby and learned fundamental computer science by myself.
 
