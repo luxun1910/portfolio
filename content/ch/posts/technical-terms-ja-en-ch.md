@@ -22,7 +22,7 @@ draft = false
 | メソッド             | 方法     | method                           |
 | スクリプト           | 脚本     | script                           |
 | マルチスレッド       | 多线程   | multithreading                   |
-| ストアドプロシージャ | TD       | TD                               |
+| ストアドプロシージャ | 存储过程 | stored procedure                 |
 | 値型                 | 值类型   | value type                       |
 | 参照型               | 引用类型 | reference type                   |
 | 関数                 | 函数     | function                         |
@@ -39,6 +39,7 @@ draft = false
 | ホットリロード       | 热部署   | hot reload                       |
 | フレームワーク       | 框架     | frame work                       |
 | ポート               | 端口     | port                             |
+| コマンドライン       | 命令行   | command line                     |
 
 ## 参考文献
 
