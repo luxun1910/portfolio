@@ -10,33 +10,35 @@ draft = false
 
 ## 专业词汇一览表
 
-### 应用程序
-
-|  日语  |  中文  |  英语  |
-| ---- | ---- | ---- |
-|  クラス  |  类  |  class  |
-|  インターフェース  |  TD  |  TD  |
-|  継承  |  TD  |  inheritance  |
-|  二重継承  |  TD  |  TD  |
-|  プロパティ  |  TD  |  TD  |
-|  フィールド  |  TD  |  TD  |
-|  メソッド  |  TD  |  TD  |
-|  スクリプト  |  脚本  |  script  |
-|  マルチスレッド  |  多线程  |  multithreading  |
-|  ストアドプロシージャ  |  TD  |  TD  |
-|  値型  |  TD  |  TD  |
-|  参照型  |  TD  |  TD  |
-|  関数  |  函数  |  function  |
-|  マクロ  |  宏  |  macro  |
-|  ループ  |  循环  |  loop  |
-|  オブジェクト指向  |  面向对象  |  Object-oriented programming(OOP)  |
-|  イテレーション  |  迭代  |  iteration  |
-|  丸かっこ  |  圆括号  |  parentheses   |
-|  演算子  |  操作符  |  operator   |
-|  アセンブリ言語  |  汇编语言  |  Assembly Language    |
-|  プログラミング言語  |  编程语言  |  Programming Language    |
-|  インスタンス  |  实例  |  instance    |
-|  デプロイ  |  部署  |  deploy    |
+| 日语                 | 中文     | 英语                             |
+| -------------------- | -------- | -------------------------------- |
+| クラス               | 类       | class                            |
+| インターフェース     | 接口     | inheritance                      |
+| 継承                 | 继承     | inheritance                      |
+| 親クラス             | 父类     | parent class                     |
+| 多重継承             | 多种继承 | multiple inheritance             |
+| プロパティ           | 属性     | property                         |
+| フィールド           | 字段     | field                            |
+| メソッド             | 方法     | method                           |
+| スクリプト           | 脚本     | script                           |
+| マルチスレッド       | 多线程   | multithreading                   |
+| ストアドプロシージャ | TD       | TD                               |
+| 値型                 | 值类型   | value type                       |
+| 参照型               | 引用类型 | reference type                   |
+| 関数                 | 函数     | function                         |
+| マクロ               | 宏       | macro                            |
+| ループ               | 循环     | loop                             |
+| オブジェクト指向     | 面向对象 | object-oriented programming(OOP) |
+| イテレーション       | 迭代     | iteration                        |
+| 丸かっこ             | 圆括号   | parentheses                      |
+| 演算子               | 操作符   | operator                         |
+| アセンブリ言語       | 汇编语言 | assembly Language                |
+| プログラミング言語   | 编程语言 | programming language             |
+| インスタンス         | 实例     | instance                         |
+| デプロイ             | 部署     | deploy                           |
+| ホットリロード       | 热部署   | hot reload                       |
+| フレームワーク       | 框架     | frame work                       |
+| ポート               | 端口     | port                             |
 
 ## 参考文献
 
