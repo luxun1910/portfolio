@@ -10,36 +10,53 @@ draft = false
 
 ## 专业词汇一览表
 
-| 日语                 | 中文     | 英语                             |
-| -------------------- | -------- | -------------------------------- |
-| クラス               | 类       | class                            |
-| インターフェース     | 接口     | inheritance                      |
-| 継承                 | 继承     | inheritance                      |
-| 親クラス             | 父类     | parent class                     |
-| 多重継承             | 多种继承 | multiple inheritance             |
-| プロパティ           | 属性     | property                         |
-| フィールド           | 字段     | field                            |
-| メソッド             | 方法     | method                           |
-| スクリプト           | 脚本     | script                           |
-| マルチスレッド       | 多线程   | multithreading                   |
-| ストアドプロシージャ | 存储过程 | stored procedure                 |
-| 値型                 | 值类型   | value type                       |
-| 参照型               | 引用类型 | reference type                   |
-| 関数                 | 函数     | function                         |
-| マクロ               | 宏       | macro                            |
-| ループ               | 循环     | loop                             |
-| オブジェクト指向     | 面向对象 | object-oriented programming(OOP) |
-| イテレーション       | 迭代     | iteration                        |
-| 丸かっこ             | 圆括号   | parentheses                      |
-| 演算子               | 操作符   | operator                         |
-| アセンブリ言語       | 汇编语言 | assembly Language                |
-| プログラミング言語   | 编程语言 | programming language             |
-| インスタンス         | 实例     | instance                         |
-| デプロイ             | 部署     | deploy                           |
-| ホットリロード       | 热部署   | hot reload                       |
-| フレームワーク       | 框架     | frame work                       |
-| ポート               | 端口     | port                             |
-| コマンドライン       | 命令行   | command line                     |
+### 应用程序
+
+| 日语               | 中文     | 英语                             |
+| ------------------ | -------- | -------------------------------- |
+| クラス             | 类       | class                            |
+| インターフェース   | 接口     | inheritance                      |
+| 継承               | 继承     | inheritance                      |
+| 親クラス           | 父类     | parent class                     |
+| 多重継承           | 多种继承 | multiple inheritance             |
+| プロパティ         | 属性     | property                         |
+| フィールド         | 字段     | field                            |
+| メソッド           | 方法     | method                           |
+| スクリプト         | 脚本     | script                           |
+| マルチスレッド     | 多线程   | multithreading                   |
+| 値型               | 值类型   | value type                       |
+| 参照型             | 引用类型 | reference type                   |
+| 関数               | 函数     | function                         |
+| マクロ             | 宏       | macro                            |
+| ループ             | 循环     | loop                             |
+| オブジェクト指向   | 面向对象 | object-oriented programming(OOP) |
+| イテレーション     | 迭代     | iteration                        |
+| アセンブリ言語     | 汇编语言 | assembly Language                |
+| プログラミング言語 | 编程语言 | programming language             |
+| インスタンス       | 实例     | instance                         |
+| デプロイ           | 部署     | deploy                           |
+| ホットリロード     | 热部署   | hot reload                       |
+| フレームワーク     | 框架     | frame work                       |
+| コマンドライン     | 命令行   | command line                     |
+
+### 记号
+
+| 日语     | 中文   | 英语        |
+| -------- | ------ | ----------- |
+| 丸かっこ | 圆括号 | parentheses |
+| 演算子   | 操作符 | operator    |
+
+### SQL
+
+| 日语                 | 中文     | 英语             |
+| -------------------- | -------- | ---------------- |
+| ストアドプロシージャ | 存储过程 | stored procedure |
+
+### 网络
+
+| 日语   | 中文 | 英语 |
+| ------ | ---- | ---- |
+| ポート | 端口 | port |
 
 ## 参考文献
 
