@@ -1,5 +1,5 @@
 +++
-title = 'Aws Hands on for Beginners Security'
+title = 'AWSビギナーハンズオンノート ~セキュリティ編~'
 date = 2025-06-21T10:00:36+08:00
 draft = false
 +++
