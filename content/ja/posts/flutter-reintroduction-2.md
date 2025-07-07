@@ -1,5 +1,5 @@
 +++
-title = 'Flutter再入門1'
+title = 'Flutter再入門2'
 date = 2025-07-07T18:59:49+08:00
 draft = false
 +++
