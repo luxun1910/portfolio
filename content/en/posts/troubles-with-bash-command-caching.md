@@ -1,5 +1,5 @@
 +++
-title = 'How to Fix When an Existing Linux Command Cannot Be Found'
+title = 'Troubles with Bash Command Caching'
 date = 2025-07-30T10:00:00+08:00
 draft = false
 +++

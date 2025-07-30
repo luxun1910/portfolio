@@ -1,5 +1,5 @@
 +++
-title = '当找不到应该存在的Linux命令时的解决方法'
+title = 'bash命令缓存问题'
 date = 2025-07-30T10:00:00+08:00
 draft = false
 +++
