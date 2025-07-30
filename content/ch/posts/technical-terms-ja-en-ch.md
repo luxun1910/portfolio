@@ -38,6 +38,7 @@ draft = false
 | ホットリロード     | 热部署   | hot reload                       |
 | フレームワーク     | 框架     | frame work                       |
 | コマンドライン     | 命令行   | command line                     |
+| ビルド             | 构建     | build                            |
 
 ### 记号
 
