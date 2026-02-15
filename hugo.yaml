@@ -6,12 +6,6 @@ title: "Portfolio of luxun1910"
 theme: hugo-profile
 publishDir: "docs"
 canonifyurls: true
-markup:
-goldmark:
-renderer:
-unsafe: true
-parser:
-hardLineBreak: true
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
@@ -192,7 +186,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 6
+pagination:
+  pagerSize: 6
 enableRobotsTXT: true
 disqusShortname: portfolio-of-luxun1910
 googleAnalytics: G-6184EMQ7LQ
@@ -201,6 +196,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      hardWraps: true
 
 Menus:
   main:
